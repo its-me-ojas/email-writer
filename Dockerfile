@@ -6,7 +6,7 @@ LABEL authors="crestfallen"
 WORKDIR /app
 
 # Copy the JAR file to the container
-COPY target/email-writer.jar email-writer.jar
+COPY email-writer.jar email-writer.jar
 
 # Expose the port your Spring Boot application runs on
 EXPOSE 8080
