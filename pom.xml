@@ -57,6 +57,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>email-writer</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
